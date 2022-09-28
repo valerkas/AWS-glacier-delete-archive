@@ -11,7 +11,7 @@ namespace GlacierApp
         public string ArchiveId { get; set; }
         public string ArchiveDescription { get; set; }
         public DateTime CreationDate { get; set; }
-        public int Size { get; set; }
+        public long Size { get; set; }
         public string SHA256TreeHash { get; set; }
     }
 }
